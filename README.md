@@ -1,4 +1,4 @@
-# Formula E Fan Explorer
+# Formula E Explorer
 
 ## Project Description
 
