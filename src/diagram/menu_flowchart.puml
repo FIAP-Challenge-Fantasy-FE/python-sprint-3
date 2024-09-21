@@ -1,0 +1,30 @@
+@startuml menu_flowchart
+skinparam backgroundColor white
+skinparam roundcorner 20
+skinparam ArrowColor #0077be
+skinparam ActivityBorderColor #0077be
+skinparam ActivityBackgroundColor #e6f3ff
+
+start
+
+:Load Data;
+
+repeat
+    :Display Welcome Message;
+    :Show Menu Options;
+    :Get User Choice;
+
+    if (Is Choice Valid?) then (yes)
+        :Get action_name from MENU_OPTIONS;
+        :Get action function from actions dict;
+    else (no)
+        :Set action to invalid_choice;
+    endif
+
+    :Execute action(data);
+
+repeat while (action is not exit_program) is (yes)
+
+stop
+
+@enduml

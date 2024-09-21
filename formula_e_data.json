@@ -1,0 +1,135 @@
+{
+  "seasons": {
+    "2019-2020": {
+      "season_name": "2019-2020",
+      "races": {
+        "Diriyah E-Prix": {
+          "location": "Diriyah, Saudi Arabia",
+          "date": "2019-11-22",
+          "results": [
+            {
+              "position": 1,
+              "driver_id": "d1",
+              "team_id": "t1",
+              "points": 25
+            },
+            {
+              "position": 2,
+              "driver_id": "d2",
+              "team_id": "t2",
+              "points": 18
+            },
+            {
+              "position": 3,
+              "driver_id": "d3",
+              "team_id": "t3",
+              "points": 15
+            }
+          ]
+        },
+        "Mexico City E-Prix": {
+          "location": "Mexico City, Mexico",
+          "date": "2020-02-15",
+          "results": [
+            {
+              "position": 1,
+              "driver_id": "d2",
+              "team_id": "t2",
+              "points": 25
+            },
+            {
+              "position": 2,
+              "driver_id": "d4",
+              "team_id": "t4",
+              "points": 18
+            },
+            {
+              "position": 3,
+              "driver_id": "d1",
+              "team_id": "t1",
+              "points": 15
+            }
+          ]
+        }
+      },
+      "standings": {
+        "drivers": [
+          {
+            "driver_id": "d1",
+            "points": 120
+          },
+          {
+            "driver_id": "d2",
+            "points": 110
+          },
+          {
+            "driver_id": "d3",
+            "points": 100
+          },
+          {
+            "driver_id": "d4",
+            "points": 90
+          }
+        ],
+        "teams": [
+          {
+            "team_id": "t1",
+            "points": 200
+          },
+          {
+            "team_id": "t2",
+            "points": 190
+          },
+          {
+            "team_id": "t3",
+            "points": 180
+          },
+          {
+            "team_id": "t4",
+            "points": 170
+          }
+        ]
+      }
+    }
+  },
+  "drivers": {
+    "d1": {
+      "name": "Sam Bird",
+      "nationality": "British",
+      "team_id": "t1"
+    },
+    "d2": {
+      "name": "Lucas di Grassi",
+      "nationality": "Brazilian",
+      "team_id": "t2"
+    },
+    "d3": {
+      "name": "Sebastien Buemi",
+      "nationality": "Swiss",
+      "team_id": "t3"
+    },
+    "d4": {
+      "name": "Jean-Eric Vergne",
+      "nationality": "French",
+      "team_id": "t4"
+    }
+  },
+  "teams": {
+    "t1": {
+      "name": "Envision Virgin Racing",
+      "base": "United Kingdom"
+    },
+    "t2": {
+      "name": "Audi Sport ABT Schaeffler",
+      "base": "Germany"
+    },
+    "t3": {
+      "name": "Nissan e.dams",
+      "base": "France"
+    },
+    "t4": {
+      "name": "DS Techeetah",
+      "base": "China"
+    }
+  }
+}

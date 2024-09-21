@@ -1,0 +1,31 @@
+@startuml use_case
+
+skinparam backgroundColor white
+skinparam roundcorner 20
+skinparam ArrowColor #0077be
+skinparam ActivityBorderColor #0077be
+skinparam ActivityBackgroundColor #e6f3ff
+
+actor User
+
+rectangle "Formula E Fan Explorer" {
+    usecase "View Driver Standings" as UC1
+    usecase "View Team Standings" as UC2
+    usecase "View Race Results" as UC3
+    usecase "Compare Drivers" as UC4
+    usecase "View Season Calendar" as UC5
+    usecase "View Driver Profile" as UC6
+    usecase "Search Races by Location" as UC7
+    usecase "Exit Program" as UC8
+}
+
+User --> UC1 : selects
+User --> UC2 : selects
+User --> UC3 : selects
+User --> UC4 : selects
+User --> UC5 : selects
+User --> UC6 : selects
+User --> UC7 : selects
+User --> UC8 : selects
+
+@enduml

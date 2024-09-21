@@ -1,0 +1,27 @@
+@startuml view_race_results_flowchart
+
+skinparam backgroundColor white
+skinparam roundcorner 20
+skinparam ArrowColor #0077be
+skinparam ActivityBorderColor #0077be
+skinparam ActivityBackgroundColor #e6f3ff
+
+start
+
+:Input season;
+:Input race name;
+:Get race data;
+
+if (Race found?) then (yes)
+  :Print race header;
+  while (More results?) is (yes)
+    :Get next result;
+    :Format result string;
+    :Print result;
+  endwhile (no)
+else (no)
+  :Print "Race or season not found";
+endif
+
+stop
+@enduml
