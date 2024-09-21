@@ -200,7 +200,7 @@ def search_races_by_location(data):
         print("No races found at that location.")
 
 def exit_program(data):
-    print("Thank you for using the Formula E Fan Explorer!")
+    print("Thank you for using the Formula E Explorer!")
     exit(0)
 
 def invalid_choice(data):
@@ -224,7 +224,7 @@ def main():
     }
 
     while True:
-        print("\nWelcome to the Formula E Fan Explorer!")
+        print("\nWelcome to the Formula E Explorer!")
         print("Choose an option:")
         for key, action in MENU_OPTIONS.items():
             description = action.replace('_', ' ').title()

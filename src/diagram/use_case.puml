@@ -8,7 +8,7 @@ skinparam ActivityBackgroundColor #e6f3ff
 
 actor User
 
-rectangle "Formula E Fan Explorer" {
+rectangle "Formula E Explorer" {
     usecase "View Driver Standings" as UC1
     usecase "View Team Standings" as UC2
     usecase "View Race Results" as UC3

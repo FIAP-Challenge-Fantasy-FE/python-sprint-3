@@ -1,8 +1,8 @@
-# Formula E Fan Explorer
+# Formula E Explorer
 
 ## Project Description
 
-The **Formula E Fan Explorer** is an interactive Python program designed to promote Formula E by allowing fans to:
+The **Formula E Explorer** is an interactive Python program designed to promote Formula E by allowing fans to:
 
 - View driver and team standings for different seasons.
 - Explore race results for specific races.
@@ -28,4 +28,4 @@ This tool aims to enhance fan engagement by providing easy access to comprehensi
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/formula-e-fan-explorer.git
+   git clone https://github.com/FIAP-Challenge-Fantasy-FE/python-sprint-3.git

@@ -12,7 +12,7 @@ from src.formula_e_explorer import (
     calculate_total_points
 )
 
-class TestFormulaEFanExplorer(unittest.TestCase):
+class TestFormulaEExplorer(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
